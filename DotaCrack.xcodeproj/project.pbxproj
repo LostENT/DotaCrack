@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52BDC37B1AE70D280038A99C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDC37A1AE70D280038A99C /* AppDelegate.swift */; };
+		52BDC37D1AE70D280038A99C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDC37C1AE70D280038A99C /* ViewController.swift */; };
+		52BDC3801AE70D280038A99C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BDC37E1AE70D280038A99C /* Main.storyboard */; };
+		52BDC3821AE70D280038A99C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BDC3811AE70D280038A99C /* Images.xcassets */; };
+		52BDC3851AE70D280038A99C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BDC3831AE70D280038A99C /* LaunchScreen.xib */; };
+		52BDC3911AE70D280038A99C /* DotaCrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDC3901AE70D280038A99C /* DotaCrackTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52BDC38B1AE70D280038A99C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BDC36D1AE70D280038A99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BDC3741AE70D280038A99C;
+			remoteInfo = DotaCrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52BDC3751AE70D280038A99C /* DotaCrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotaCrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BDC3791AE70D280038A99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BDC37A1AE70D280038A99C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52BDC37C1AE70D280038A99C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52BDC37F1AE70D280038A99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52BDC3811AE70D280038A99C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52BDC3841AE70D280038A99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52BDC38A1AE70D280038A99C /* DotaCrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotaCrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BDC38F1AE70D280038A99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BDC3901AE70D280038A99C /* DotaCrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaCrackTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52BDC3721AE70D280038A99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDC3871AE70D280038A99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52BDC36C1AE70D280038A99C = {
+			isa = PBXGroup;
+			children = (
+				52BDC3771AE70D280038A99C /* DotaCrack */,
+				52BDC38D1AE70D280038A99C /* DotaCrackTests */,
+				52BDC3761AE70D280038A99C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52BDC3761AE70D280038A99C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BDC3751AE70D280038A99C /* DotaCrack.app */,
+				52BDC38A1AE70D280038A99C /* DotaCrackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52BDC3771AE70D280038A99C /* DotaCrack */ = {
+			isa = PBXGroup;
+			children = (
+				52BDC37A1AE70D280038A99C /* AppDelegate.swift */,
+				52BDC37C1AE70D280038A99C /* ViewController.swift */,
+				52BDC37E1AE70D280038A99C /* Main.storyboard */,
+				52BDC3811AE70D280038A99C /* Images.xcassets */,
+				52BDC3831AE70D280038A99C /* LaunchScreen.xib */,
+				52BDC3781AE70D280038A99C /* Supporting Files */,
+			);
+			path = DotaCrack;
+			sourceTree = "<group>";
+		};
+		52BDC3781AE70D280038A99C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52BDC3791AE70D280038A99C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52BDC38D1AE70D280038A99C /* DotaCrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				52BDC3901AE70D280038A99C /* DotaCrackTests.swift */,
+				52BDC38E1AE70D280038A99C /* Supporting Files */,
+			);
+			path = DotaCrackTests;
+			sourceTree = "<group>";
+		};
+		52BDC38E1AE70D280038A99C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52BDC38F1AE70D280038A99C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52BDC3741AE70D280038A99C /* DotaCrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BDC3941AE70D280038A99C /* Build configuration list for PBXNativeTarget "DotaCrack" */;
+			buildPhases = (
+				52BDC3711AE70D280038A99C /* Sources */,
+				52BDC3721AE70D280038A99C /* Frameworks */,
+				52BDC3731AE70D280038A99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DotaCrack;
+			productName = DotaCrack;
+			productReference = 52BDC3751AE70D280038A99C /* DotaCrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52BDC3891AE70D280038A99C /* DotaCrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BDC3971AE70D280038A99C /* Build configuration list for PBXNativeTarget "DotaCrackTests" */;
+			buildPhases = (
+				52BDC3861AE70D280038A99C /* Sources */,
+				52BDC3871AE70D280038A99C /* Frameworks */,
+				52BDC3881AE70D280038A99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BDC38C1AE70D280038A99C /* PBXTargetDependency */,
+			);
+			name = DotaCrackTests;
+			productName = DotaCrackTests;
+			productReference = 52BDC38A1AE70D280038A99C /* DotaCrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52BDC36D1AE70D280038A99C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = blackhat;
+				TargetAttributes = {
+					52BDC3741AE70D280038A99C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					52BDC3891AE70D280038A99C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 52BDC3741AE70D280038A99C;
+					};
+				};
+			};
+			buildConfigurationList = 52BDC3701AE70D280038A99C /* Build configuration list for PBXProject "DotaCrack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52BDC36C1AE70D280038A99C;
+			productRefGroup = 52BDC3761AE70D280038A99C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52BDC3741AE70D280038A99C /* DotaCrack */,
+				52BDC3891AE70D280038A99C /* DotaCrackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52BDC3731AE70D280038A99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BDC3801AE70D280038A99C /* Main.storyboard in Resources */,
+				52BDC3851AE70D280038A99C /* LaunchScreen.xib in Resources */,
+				52BDC3821AE70D280038A99C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDC3881AE70D280038A99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BDC3711AE70D280038A99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BDC37D1AE70D280038A99C /* ViewController.swift in Sources */,
+				52BDC37B1AE70D280038A99C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDC3861AE70D280038A99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BDC3911AE70D280038A99C /* DotaCrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52BDC38C1AE70D280038A99C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BDC3741AE70D280038A99C /* DotaCrack */;
+			targetProxy = 52BDC38B1AE70D280038A99C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52BDC37E1AE70D280038A99C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BDC37F1AE70D280038A99C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52BDC3831AE70D280038A99C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BDC3841AE70D280038A99C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52BDC3921AE70D280038A99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52BDC3931AE70D280038A99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52BDC3951AE70D280038A99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DotaCrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52BDC3961AE70D280038A99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DotaCrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52BDC3981AE70D280038A99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DotaCrackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DotaCrack.app/DotaCrack";
+			};
+			name = Debug;
+		};
+		52BDC3991AE70D280038A99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DotaCrackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DotaCrack.app/DotaCrack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52BDC3701AE70D280038A99C /* Build configuration list for PBXProject "DotaCrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BDC3921AE70D280038A99C /* Debug */,
+				52BDC3931AE70D280038A99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BDC3941AE70D280038A99C /* Build configuration list for PBXNativeTarget "DotaCrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BDC3951AE70D280038A99C /* Debug */,
+				52BDC3961AE70D280038A99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52BDC3971AE70D280038A99C /* Build configuration list for PBXNativeTarget "DotaCrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BDC3981AE70D280038A99C /* Debug */,
+				52BDC3991AE70D280038A99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52BDC36D1AE70D280038A99C /* Project object */;
+}
